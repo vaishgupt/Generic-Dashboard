@@ -1,3 +1,86 @@
+# Modern Dashboard Application
+
+A modern dashboard application built with Next.js, TypeScript, and Shadcn/UI components featuring data visualization, user management, and responsive design.
+
+## Features
+
+- 📊 Interactive Charts (Area, Bar, Line, Pie) using Recharts
+- 🎨 Dark/Light Theme Support
+- 📱 Responsive Layout
+- 📋 Data Tables with Sorting and Pagination
+- 👤 User Management
+- 🔄 Real-time Updates
+- 🎯 Todo Management
+- 📊 Payment Analytics
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) - React Framework
+- [TypeScript](https://www.typescriptlang.org/) - Static Type Checking
+- [Shadcn/UI](https://ui.shadcn.com/) - UI Components
+- [Recharts](https://recharts.org/) - Chart Components
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Lucide Icons](https://lucide.dev/) - Icons
+
+## Getting Started
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser.
+
+## Project Structure
+
+```
+my-app/
+├── app/                  # Next.js app directory
+│   ├── globals.css      # Global styles
+│   ├── layout.tsx       # Root layout
+│   ├── page.tsx         # Home page
+│   ├── payment/         # Payment module
+│   └── users/          # User management module
+├── components/          # React components
+│   ├── ui/             # Shadcn UI components
+│   └── providers/      # Context providers
+├── hooks/              # Custom React hooks
+├── lib/               # Utility functions
+└── public/            # Static assets
+```
+
+## Key Components
+
+- `AppAreaChart`, `AppBarChart`, `AppLineChart`, `AppPieChart`: Visualization components
+- `TablePagination`: Reusable table pagination component
+- `EditUser`: User management form
+- `AppSidebar`: Navigation sidebar
+- `TodoList`: Task management component
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
