@@ -26,7 +26,7 @@ A modern dashboard application built with Next.js, TypeScript, and Shadcn/UI com
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone(https://github.com/vaishgupt/Generic-Dashboard)
 ```
 
 2. Install dependencies:
